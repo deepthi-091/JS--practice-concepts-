@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        side: <input type="number" name="side" id="side"> <br>
+        <button type="button" onclick="showsqrarea()">Calculate_area</button>
+    </form>
+    <p id="sqr_area">=></p>
+    <script>
+        //function expression(if we store any function inside a variable then it is function expression) 
+        //+ arrow function(means shortcut of function ()=>{} )
+        const calculatesqrarea=(side)=>side*side;
+        function showsqrarea(side){
+            const s=document.getElementById("side").value;
+            document.getElementById("sqr_area").innerText=`Area od Square ${calculatesqrarea(s)}`;
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        length: <input type="number" id="len"> <br>
+        width: <input type="number"  id="wid"> <br>
+        <button type="button" onclick="showPerimeter()">CalculatePerimeter</button>
+        <br>
+        <p id="perimeter">=></p>
+    </form>
+    <script>
+        const calculateperimeter=function(len,wid){return 2*(len+wid)};
+        //function declaration (means function function_name(){})
+        function showPerimeter() {
+            const l=parseFloat(document.getElementById("len").value);
+            const w=parseFloat(document.getElementById("wid").value);
+            document.getElementById("perimeter").innerText=`perimeter : ${calculateperimeter(l,w)}`;
+        }
+    </script>
+</body>
+</html>

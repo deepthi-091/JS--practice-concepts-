@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+        length: <input id="len" type="number"> <br>
+        width: <input id="wid" type="number" > <br>
+        <button type="button" onclick="showArea()">Calculate Area</button>
+   </form>
+   <p id="arearesult">=></p>
+   
+   <script>
+    //function declaration
+    function rectanglearea(len,wid){
+        return len*wid;
+    }
+    //function declaration
+    function showArea(){
+        const l=parseFloat(document.getElementById('len').value);
+        const w=parseFloat(document.getElementById("wid").value);
+        document.getElementById('arearesult').innerText=`Area: ${rectanglearea(l,w)}`; //calling a function in another function.
+    }
+   </script>
+</body>
+</html>

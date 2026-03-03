@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        name: <input type="text" id="name"> <br>
+        <button type="button" onclick="greetuser()">Greet User</button>
+        <br>
+        <p id="usergreetings"></p>
+    </form>
+    <script>
+        //function expression + arrow function
+        const greetusers=(name="guest") => `hello  ${name} `;
+        //function declaration
+        function greetuser(){
+            const username1= document.getElementById('name').value;
+            document.getElementById('usergreetings').innerText=`${greetusers(username1)}`;
+        };
+        //function declaration has highest scope among all functions.
+    </script>
+</body>
+</html>
