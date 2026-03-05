@@ -47,3 +47,6 @@ console.log(citrus2);
 console.log(fruits);
 fruits.splice(2,2,"guava","grapes");
 console.log(fruits);
+//fill() - 
+console.log(fruits.fill("kiwi",2,4));
+
