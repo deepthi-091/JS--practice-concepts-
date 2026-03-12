@@ -1,0 +1,46 @@
+Beginner Logic Tasks
+Reverse a String  
+Write a function that takes "hello" and returns "olleh".
+
+Hint: loop from the end or use .split().reverse().join().
+
+Palindrome Checker  
+Check if a word like "madam" or "racecar" reads the same backward and forward.
+
+Factorial Calculator  
+Input: 5 → Output: 120 (because 5*4*3*2*1).
+
+FizzBuzz  
+Print numbers from 1 to 50.
+
+If divisible by 3 → print "Fizz".
+
+If divisible by 5 → print "Buzz".
+
+If divisible by both → print "FizzBuzz".
+
+🔄 Intermediate Logic Tasks
+Find Largest Number in an Array  
+Input: [3, 7, 2, 9, 5] → Output: 9.
+
+Count Vowels in a String  
+Input: "JavaScript" → Output: 3.
+
+Prime Number Checker  
+Input: 7 → Output: true (since 7 is prime).
+
+Sort Array Without .sort()  
+Implement bubble sort or selection sort manually.
+
+🚀 Advanced Logic Tasks
+Anagram Checker  
+Input: "listen" and "silent" → Output: true.
+
+Generate Fibonacci Sequence  
+Input: 7 → Output: [0,1,1,2,3,5,8].
+
+Find Missing Number  
+Input: [1,2,3,5] → Output: 4.
+
+Simple Calculator  
+Take two numbers and an operator (+, -, *, /) and return the result.

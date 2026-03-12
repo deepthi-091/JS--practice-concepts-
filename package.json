@@ -1,0 +1,26 @@
+{
+  "name": "js_tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "practice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepthi-091/JS--practice-concepts-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/deepthi-091/JS--practice-concepts-/issues"
+  },
+  "homepage": "https://github.com/deepthi-091/JS--practice-concepts-#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+
+  
+}
